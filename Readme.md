@@ -79,10 +79,6 @@ Anusandhan is an AI-powered search engine designed to provide real-time search c
 
 This project was developed independently without external funding. Contributions and feedback are welcome through GitHub issues and pull requests.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Feel free to modify and expand upon this README as needed to provide more detailed instructions, information about APIs, deployment steps, or any other relevant details for users and contributors.
