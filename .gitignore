@@ -1,0 +1,10 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.env
+/ai_search_ui/.env
+/ai_search_ui/.venv
+/ai_search_ui/__pycache__
+
