@@ -35,7 +35,7 @@ Anusandhan is an AI-powered search engine designed to provide real-time search c
    ```
    HF_TOKEN=YOUR_HF_API_TOKEN
    ```
-   - How to get your hf token for free
+   - [How to get your hf token for free](https://huggingface.co/docs/hub/en/security-tokens)
       * Log in to [huggingface](https://huggingface.co/)
       * Go to Profie > then go to Setttings > then go to Access Tokens tab
       * [Access Tokens Page](https://huggingface.co/settings/tokens)
