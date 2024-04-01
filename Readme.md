@@ -50,9 +50,22 @@ Anusandhan is an AI-powered search engine designed to provide real-time search c
      cd ai_search_ui
      ```
    - Create Virtual Enviornment & Install Dependencies
+   * For windows ( git bash )
         ```sh
-        python -m venv venv
-        venv/Scripts/activate
+        python -m venv .venv
+        source .venv/Scripts/activate
+        pip install -r requirements.txt
+        ```
+    * For windows ( cmd )
+        ```sh
+        python -m venv .venv
+        .venv\Scripts\activate
+        pip install -r requirements.txt
+        ```
+    * For Linux & Mac
+        ```sh
+        python -m venv .venv
+        souce .venv/bin/activate
         pip install -r requirements.txt
         ```
    - Run the Streamlit app:
