@@ -37,8 +37,8 @@ def query(payload):
 
     # Replace API URL with your LLM API URL ( from hugging face. i.e. )
     # for example HF_LLM_INFERENCE_CHECKPOINT='https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2'
-    API_URL='https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2'
-    # API_URL="https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
+    # API_URL='https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2'
+    API_URL="https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
     # API_URL = os.getenv('HF_LLM_INFERENCE_CHECKPOINT')
 
     headers = {"Authorization": "Bearer "+hf_token}

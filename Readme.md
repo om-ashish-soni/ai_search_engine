@@ -29,7 +29,22 @@ Anusandhan is an AI-powered search engine designed to provide real-time search c
 1. **Streamlit Setup**:
    - Ensure you have Python installed with Streamlit (`pip install streamlit`).
 
-2. **Running the UI**:
+2. **Environment Setup**:
+   - Create .env file in /ai_search_ui directory of project
+   - Replace .env content with 
+   ```
+   HF_TOKEN=YOUR_HF_API_TOKEN
+   ```
+   - How to get your hf token for free
+      * Log in to [huggingface](https://huggingface.co/)
+      * Go to Profie > then go to Setttings > then go to Access Tokens tab
+      * [Access Tokens Page](https://huggingface.co/settings/tokens)
+      * If there exists Access Token then copy it and paste it as HF_TOKEN in .env file of project
+      * If Access Token does not exist then click on new token Write the "Name of Token" and Select the "Type of Token" (Read / Write) Access.
+      * After creating copy the token and paste it as HF_TOKEN in .env file of project.
+
+
+3. **Running the UI**:
    - Navigate to the `ai_search_ui` directory:
      ```sh
      cd ai_search_ui
@@ -55,9 +70,17 @@ Anusandhan is an AI-powered search engine designed to provide real-time search c
    - Install required Node.js packages:
      ```sh
      npm install
+     npx playwright install
      ```
+3. **Environment Setup**:
+   - Create .env file in root directory of project
+   - Replace .env content with 
+   ```
+   PAGE_POOL_SIZE=5
+   WEB_STORE='https://www.google.com'
+   ```
 
-3. **Starting the Backend**:
+4. **Starting the Backend**:
    - From the project root, start the backend server using `nodemon`:
      ```sh
      nodemon app.js
